@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css"
+      media="all"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="parent">
+      <!--parent-->
+      <div class="welcome">
+        <!--child1-->
+        <div class="welcome-content">
+          <h2>welcome to login</h2>
+          <p>do not have an account?</p>
+          <button>Sign Up</button>
+        </div>
+      </div>
+      <div class="login">
+        <!--child2-->
+        <div class="login-content">
+          <!--parent child2-->
+          <div class="title-social">
+            <!--p child1-->
+            <h3>Sign In</h3>
+            <ul>
+              <li>
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-instagram-square"></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="clear-both"></div>
+          <form>
+            <!--p child2-->
+            <h4>UserName</h4>
+            <input type="text" placeholder="username" />
+            <h4>Password</h4>
+            <input type="password" placeholder="password" />
+            <input type="submit" value="Sign In" />
+          </form>
+          <div class="remember">
+            <!--p child3-->
+            <div class="checkbox">
+              <input type="checkbox" />
+              <span>Remember me</span>
+            </div>
+            <p><a href="#" style="color: black;">Forgot password</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

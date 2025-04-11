@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: rgb(245,245,245);
+}
+.clear-both{
+    clear: both;
+}
+
+.parent{
+    width: 900px;
+    height: 500px;
+    background-color: 1px solid rgb(245,245,245);
+    border: 1px solid gray;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px;
+    margin-left: -450px;
+    border-radius: 10px;
+}
+
+/*start welcome*/
+.parent .welcome{ 
+    width: 50%;
+    height: 500px;
+    background-color: darkorange;
+    float: right;
+}
+.parent .welcome .welcome-content{
+    width: 250px;
+    padding: 30px 0px;
+    text-align: center;
+    color: #fff;
+    margin: 162px auto 0px auto;
+    text-transform: capitalize;
+}
+.parent .welcome .welcome-content p{
+    margin: 20px 0px;
+}
+.parent .welcome .welcome-content button{
+    padding: 7px 30px ;
+    background:none;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 18px;
+}
+
+.parent .welcome .welcome-content button:hover{
+    color: brown;
+}
+    /*end welcome*/
+
+        /*start login*/
+.parent .login{
+    width: 50%;
+    height: 500px;
+
+}
+.parent .login .login-content{
+    overflow: hidden;
+    padding: 0px 40px;
+    margin-top: 100px;
+}
+.parent .login form input{
+    width: 356px; 
+    padding: 10px 5px; 
+    border-radius: 3px;
+    border: 1px solid lightgray;
+}
+.parent .login form input[type="submit"]{
+    width: 370px;
+    margin-top: 20px;
+    background-color:gainsboro;
+
+}
+.parent .login form input:hover{
+color: blue;
+}
+
+.parent .login .title-social{
+background-color: rosybrown;
+}
+.parent .login .title-social h3{
+    float: left;
+    font-size: 24px;
+    text-transform: capitalize;
+}
+.parent .login .title-social ul{
+    float: right;
+    list-style: none;
+}
+.parent .login .title-social ul li{
+    float: left;
+    margin-left: 10px;
+    font-size: 28px;
+}
+.parent .login .title-social ul li i {
+    color: gray;  
+}
+.parent .login .title-social ul li i:hover{
+    color: blue;
+}
+
+.parent .login .title-social fa-facebook-square{
+    margin-right: 10px;
+}
+/*start form*/
+.parent .login form{
+    margin: 30px 0px;
+   
+  
+
+}
+/*end form*/
+
+/*start forget*/
+.parent .login .remember .checkbox{
+    float: left;
+}
+.parent .login .remember  p{
+    float: right;
+   
+}
+/***  ***/
+
